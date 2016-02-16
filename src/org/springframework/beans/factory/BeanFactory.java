@@ -12,6 +12,7 @@ import org.springframework.beans.BeansException;
  * 这个接口被那些支持多个bean定义的对象实现
  * 太长不写了
  */
+//完成
 public interface BeanFactory {
 	/**
 	 * 如果需要得到工厂Bean本身，需要使用转义的名字来向IOC容器检索
