@@ -1,5 +1,7 @@
 package org.springframework.beans.factory.xml;
 
-public class XmlBeanFactory {
+import org.springframework.beans.factory.support.DefaultListableBeanFactory;
 
+public class XmlBeanFactory extends DefaultListableBeanFactory{
+	private final XmlBeanDefinitionReader reader=new XmlBeanDefinitionReader(this);
 }
